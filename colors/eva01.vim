@@ -72,7 +72,7 @@ hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#FF4ACC guibg=NONE g
 hi StatusLine ctermfg=135 ctermbg=233 cterm=NONE guifg=#FFFFFF guibg=#121212 gui=NONE
 hi StatusLineNC ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
 hi TabLine ctermfg=102 ctermbg=235 cterm=NONE guifg=#FFFFFF guibg=#262626 gui=NONE
-hi TabLineFill ctermfg=102 ctermbg=235 cterm=NONE guifg=#FFFFFF guibg=#262626 gui=NONE
+hi TabLineFill ctermfg=102 ctermbg=235 cterm=NONE guifg=#FFFFFF guibg=NONE gui=NONE
 hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#AF5FFF guibg=NONE gui=NONE
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#FF4ACC guibg=NONE gui=bold
 hi Visual ctermfg=119 ctermbg=97 cterm=bold guifg=#87FF5F guibg=#875FAF gui=bold
