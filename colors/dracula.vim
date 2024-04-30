@@ -142,8 +142,8 @@ call s:h('DraculaFg', s:fg)
 call s:h('DraculaFgUnderline', s:fg, s:none, [s:attrs.underline])
 call s:h('DraculaFgBold', s:fg, s:none, [s:attrs.bold])
 
-call s:h('DraculaComment', s:comment)
-call s:h('DraculaCommentBold', s:comment, s:none, [s:attrs.bold])
+call s:h('DraculaComment', s:comment, s:none, [s:attrs.italic])
+call s:h('DraculaCommentBold', s:comment, s:none, [s:attrs.bold, s:attrs.italic])
 
 call s:h('DraculaSelection', s:none, s:selection)
 
@@ -163,17 +163,17 @@ call s:h('DraculaOrangeItalic', s:orange, s:none, [s:attrs.italic])
 call s:h('DraculaOrangeBoldItalic', s:orange, s:none, [s:attrs.bold, s:attrs.italic])
 call s:h('DraculaOrangeInverse', s:bg, s:orange)
 
-call s:h('DraculaPink', s:pink)
+call s:h('DraculaPink', s:pink, s:none, [s:attrs.italic])
 call s:h('DraculaPinkItalic', s:pink, s:none, [s:attrs.italic])
 
-call s:h('DraculaPurple', s:purple)
+call s:h('DraculaPurple', s:purple, s:none, [s:attrs.italic])
 call s:h('DraculaPurpleBold', s:purple, s:none, [s:attrs.bold])
 call s:h('DraculaPurpleItalic', s:purple, s:none, [s:attrs.italic])
 
 call s:h('DraculaRed', s:red)
 call s:h('DraculaRedInverse', s:fg, s:red)
 
-call s:h('DraculaYellow', s:yellow)
+call s:h('DraculaYellow', s:yellow, s:none, [s:attrs.italic])
 call s:h('DraculaYellowItalic', s:yellow, s:none, [s:attrs.italic])
 
 call s:h('DraculaError', s:red, s:none, [], s:red)
